@@ -4,7 +4,8 @@ def weight_on_planets():
     mars_weight = earth_weight * 0.38
     jupiter_weight = earth_weight * 2.34
 
-    print('\nOn Mars you would weigh {:.2f} pounds.'.format(mars_weight) + '\nOn Jupiter you would weigh {:.2f} pounds.'.format(jupiter_weight))
+    print('\nOn Mars you would weigh {:.2f} pounds.'.format(mars_weight) +
+          '\nOn Jupiter you would weigh {:.2f} pounds.'.format(jupiter_weight))
     
 if __name__ == '__main__':
     weight_on_planets()
